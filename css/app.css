@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+@import url('https://use.fontawesome.com/releases/v5.5.0/css/all.css');
+
+body {
+
+  font-family: 'Arimo', sans-serif;
+  color: white;
+  height: 100%;
+  text-align: center;
+  font-size: 22px;
+}
+
+
+.container1 {
+background: gray;
+width: 100%;
+  margin: 0 auto;
+}
+.container1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+#menu{
+color: white;
+float: left;
+}
+
+h1, h2, h3 {
+  font-family: 'Arimo', sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin: 5px 0;
+}
+
+h1 {
+  font-size: 2.3em;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
+p {
+  font-size: 1em;
+}
+
+.theAbc {
+padding: 4px;
+}
+
+#letters {
+  margin: 15px auto;
+  padding: 0;
+  max-width: 900px;
+}
+#letters:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#letters li {
+  list-style: none;
+}
+
+
+#letters button {
+  float: left;
+  margin: 0 10px 10px 0;
+  font-size: 1em;
+  width: 50px;
+  height: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: white;
+  color: #83d160;
+  cursor: pointer;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: solid 1px white;
+}
+#letters button:hover {
+  background: #83d160;
+  border: solid 1px white;
+  color: white;
+}
+
+#my-word {
+  margin: 0;
+  display: block;
+  padding: 0;
+  display: block;
+}
+
+#my-word li {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  display: inline-block;
+  padding: 0 10px;
+  font-size: 1.6em;
+}
+
+.removed {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  cursor: default;
+  -moz-transition: all 1s ease-in;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+.removed:hover {
+  -moz-transition: all 1s ease-in;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  opacity: 0.4;
+  background: gray;
+  filter: alpha(opacity=40);
+  -moz-transition: all 1s ease-in;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+
+.displayLives {
+  font-size: 1.5em;
+  text-align: center;
+  display: block;
+}
+
+.controls {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background: #83d160;
+  color: white;
+  border: solid 1px white;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  padding: 18px 10px;
+  width: 180px;
+  margin: 10px;
+  outline: none;
+}
+.controls:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background: white;
+  border: solid 1px white;
+  color: #83d160;
+}
+
+
+.divcotrols {
+  clear: both;
+}
+
+.credits {
+  margin-top: 4px;
+  margin-bottom: 10px;
+  color: white;
+  float: right;
+}
+.credits a{
+  color: white;
+}
+.credits span {
+  font-size: 0.7em;
+}
+
+@media (max-width: 767px) {
+  #letters {
+    padding: 0 0 0 15px;
+  }
+}
+@media (max-width: 480px) {
+  #letters {
+    padding: 0 0 0 25px;
+  }
+}
