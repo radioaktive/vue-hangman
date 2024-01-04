@@ -2,4 +2,4 @@
 
 run index.html
 
-This project, but compiled/transpiled with Vue CLI : http://radioaktive.dvij.info/hangman/
+Demo : https://vue-hangman-one.vercel.app
